@@ -1,4 +1,87 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
+languageCode = 'es'
 title = 'My New Hugo Site'
 theme =['hugo-theme-relearn']
+
+
+[Shortcuts-Title]
+other = "Más opciones"
+
+
+[[language.es.menu.main]]
+[[menu.shortcuts]]
+name="<i class='fab fa-php'></i>   Lenguaje php"
+identified=""
+url="https://php.net"
+weight=1
+
+[[menu.shortcuts]]
+name="<i class='fab fa-wikipedia-w'></i>   Wiki del curso"
+identified=""
+url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+weight=2
+
+[[menu.shortcuts]]
+name="<i class='far fa-question-circle'></i>   Ejercicios resueltos"
+identified=""
+url="http://manuel.infenlaces.com/dwes/ejercicios/"
+weight=3
+
+
+
+defaultContentLanguage="es"
+[Languages]
+    [Languages.es]
+        title = "Ejemplo para el uso de idiomas"
+        weight = 1
+        languageName = "Español"
+        contentDir = "content/es"
+        [[Languages.es.menu.shortcuts]]
+            name = "Public Center  Enlaces"
+            url = "http://cpilosenlaces.com"
+            weight= 1
+        [[Languages.es.menu.shortcuts]]
+            name = "Language PHP"
+            url = "http://php.net"
+            weight= 2
+        [[Languages.es.menu.shortcuts]]
+            name = "Wiki Documentation"
+            url = "http://es.wikieducator.org/Usuario:ManuelRomero"
+            weight= 3    
+
+    [Languages.en]
+        title = "Example use language"
+        weight = 2
+        languageName = "English"
+        contentDir = "content/en"
+        [[Languages.en.menu.shortcuts]]
+            name = "Public Center  Enlaces"
+            url = "http://cpilosenlaces.com"
+            weight= 1
+        [[Languages.en.menu.shortcuts]]
+            name = "Language PHP"
+            url = "http://php.net"
+            weight= 2
+        [[Languages.en.menu.shortcuts]]
+            name = "Wiki Documentation"
+            url = "http://es.wikieducator.org/Usuario:ManuelRomero"
+            weight= 3  
+        
+    [Languages.fr]
+        title = "Example use language"
+        weight = 3
+        languageName = "Français"
+        contentDir = "content/fr"
+        [[Languages.en.menu.shortcuts]]
+            name = "Public Center  Enlaces"
+            url = "http://cpilosenlaces.com"
+            weight= 1
+        [[Languages.en.menu.shortcuts]]
+            name = "Language PHP"
+            url = "http://php.net"
+            weight= 2
+        [[Languages.en.menu.shortcuts]]
+            name = "Wiki Documentation"
+            url = "http://es.wikieducator.org/Usuario:ManuelRomero"
+            weight= 3  
+
