@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ejemplo para el uso de idiomas</title>
+    <link>http://example.org/es/</link>
+    <description>Recent content on Ejemplo para el uso de idiomas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="http://example.org/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sobre Mi</title>
+      <link>http://example.org/es/sobremi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/es/sobremi/</guid>
+      <description>Ricardo Fernandez Estudiante de CPIFP Los Enlaces en DAW Buenas, me llamo Ricardo y tengo 21 años. Actualmente me encuentro estudiando un Grado Superior de Desarrollo de Aplicaciones Web en el centro CPIFP de Los Enlaces.
+Escogi este grado principalmente porque siempre me ha agradado la programacion y es un muy buen complemento para el grado de Desarrollo de Aplicaciones Web.
+Entre mis hobbies principales se encuentras los videojuegos y el gimnasio.</description>
+    </item>
+    <item>
+      <title>SobreHugo</title>
+      <link>http://example.org/es/sobrehugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/es/sobrehugo/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>ProcesoCom</title>
+      <link>http://example.org/es/procesocom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/es/procesocom/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>Herramientas</title>
+      <link>http://example.org/es/herramientas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/es/herramientas/</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+  </channel>
+</rss>
