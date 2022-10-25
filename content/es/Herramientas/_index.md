@@ -1,5 +1,5 @@
 +++
-archetype = "chapter"
+archetype = " "
 title = "Herramientas"
 weight = 4
 +++
