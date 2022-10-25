@@ -1,11 +1,13 @@
 baseURL = 'http://example.org/'
 languageCode = 'es'
+defaultContentLanguage = 'es'
 title = 'My New Hugo Site'
 theme =['hugo-theme-relearn']
 
 
 [Shortcuts-Title]
 other = "Más opciones"
+
 
 
 [[language.es.menu.main]]

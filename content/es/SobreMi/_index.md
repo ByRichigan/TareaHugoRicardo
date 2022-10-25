@@ -1,5 +1,5 @@
 +++
-archetype = "chapter"
+archetype = ""
 weight = 1
 title = "Sobre Mi"
 +++
@@ -12,4 +12,8 @@ Buenas, me llamo Ricardo y tengo 21 años. Actualmente me encuentro estudiando u
 
 Escogi este grado principalmente porque siempre me ha agradado la programacion y es un muy buen complemento para el grado de Desarrollo de Aplicaciones Web.
 
-Entre mis hobbies principales se encuentras los videojuegos y el gimnasio. Tambien me gusta salir con mis amigos de fiesta y ver peliculas.
+![ImagenProgramacion](/img/programacion.jpg "Tu imagen") 
+
+Entre mis hobbies principales se encuentras los videojuegos y el gimnasio y dentro de este practico una categoria llamada **powerlifting**.
+
+![ImagenPowerlifting](/img/powerlifting.jpg "Tu imagen") 
