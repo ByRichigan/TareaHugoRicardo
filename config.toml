@@ -8,6 +8,10 @@ theme =['hugo-theme-relearn']
 [Shortcuts-Title]
 other = "Más opciones"
 
+[params]
+  # Change default color scheme with a variant one.
+  themeVariant = [ "relearn-light", "relearn-dark", "neon"]
+
 
 
 [[language.es.menu.main]]
@@ -18,17 +22,10 @@ url="https://php.net"
 weight=1
 
 [[menu.shortcuts]]
-name="<i class='fab fa-wikipedia-w'></i>   Wiki del curso"
+name="<i class='fab fa-wikipedia-w'></i>   GitHub Ricardo"
 identified=""
-url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+url="GitHub Ricardo"
 weight=2
-
-[[menu.shortcuts]]
-name="<i class='far fa-question-circle'></i>   Ejercicios resueltos"
-identified=""
-url="http://manuel.infenlaces.com/dwes/ejercicios/"
-weight=3
-
 
 
 defaultContentLanguage="es"
@@ -39,17 +36,13 @@ defaultContentLanguage="es"
         languageName = "Español"
         contentDir = "content/es"
         [[Languages.es.menu.shortcuts]]
-            name = "Public Center  Enlaces"
+            name = "Centro Publico Enlaces"
             url = "http://cpilosenlaces.com"
             weight= 1
         [[Languages.es.menu.shortcuts]]
-            name = "Language PHP"
-            url = "http://php.net"
-            weight= 2
-        [[Languages.es.menu.shortcuts]]
-            name = "Wiki Documentation"
-            url = "http://es.wikieducator.org/Usuario:ManuelRomero"
-            weight= 3    
+            name = "GitHub Ricardo"
+            url = "https://github.com/ByRichigan/TareaHugoRicardo"
+            weight= 2  
 
     [Languages.en]
         title = "Example use language"
@@ -61,29 +54,21 @@ defaultContentLanguage="es"
             url = "http://cpilosenlaces.com"
             weight= 1
         [[Languages.en.menu.shortcuts]]
-            name = "Language PHP"
-            url = "http://php.net"
-            weight= 2
-        [[Languages.en.menu.shortcuts]]
-            name = "Wiki Documentation"
-            url = "http://es.wikieducator.org/Usuario:ManuelRomero"
-            weight= 3  
+            name = "GitHub Ricardo"
+            url = "https://github.com/ByRichigan/TareaHugoRicardo"
+            weight= 2 
         
     [Languages.fr]
         title = "Example use language"
         weight = 3
         languageName = "Français"
         contentDir = "content/fr"
-        [[Languages.en.menu.shortcuts]]
-            name = "Public Center  Enlaces"
+        [[Languages.fr.menu.shortcuts]]
+            name = "Liens du centre public"
             url = "http://cpilosenlaces.com"
             weight= 1
-        [[Languages.en.menu.shortcuts]]
-            name = "Language PHP"
-            url = "http://php.net"
+        [[Languages.fr.menu.shortcuts]]
+            name = "GitHub Ricardo"
+            url = "https://github.com/ByRichigan/TareaHugoRicardo"
             weight= 2
-        [[Languages.en.menu.shortcuts]]
-            name = "Wiki Documentation"
-            url = "http://es.wikieducator.org/Usuario:ManuelRomero"
-            weight= 3  
 
